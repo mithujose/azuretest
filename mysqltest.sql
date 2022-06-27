@@ -34,4 +34,4 @@ steps:
       -- Delete
       DELETE FROM inventory WHERE id = 2;
       SELECT * FROM inventory;
-    IpDetectionMethod: 'AutoDetect'
+   # IpDetectionMethod: 'AutoDetect'
