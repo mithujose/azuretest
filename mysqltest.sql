@@ -1,8 +1,8 @@
-trigger:
-- master
+#trigger:
+#- master
 
-pool:
-  vmImage: ubuntu-latest
+#pool:
+#  vmImage: ubuntu-latest
 
 steps:
 - task: AzureMysqlDeployment@1
