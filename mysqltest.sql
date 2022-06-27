@@ -7,7 +7,7 @@
 steps:
 - task: AzureMysqlDeployment@1
   inputs:
-    azureSubscription: '<your-subscription>
+    azureSubscription: '<your-subscription>'
     ServerName: '<db>.mysql.database.azure.com'
     SqlUsername: '<username>@<db>'
     SqlPassword: '$(SQLpass)'
